@@ -1,0 +1,16 @@
+@media screen and (max-width:990px) {
+    #modeChangeBtn,p{
+        position: relative;
+        bottom:7px;
+    }
+    p{
+        display: inline;
+    }
+}
+@media screen and (max-width:455px){
+    #modeChangeBtn{
+        bottom:0px;
+        margin:8px 0px;
+        right:15px;
+    }
+}
