@@ -39,9 +39,9 @@ function App() {
         <NavBar title={title} navHead={navHead} sendAlert={sendAlert} mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <Routes>
-        <Route exact path='/TextAnalyzer-React' element={<MyText heading = {heading} sendAlert={sendAlert}/>}/>
-        <Route exact path='/TextAnalyzer-React/about' element={< About />}/>
-        <Route exact path='/TextAnalyzer-React/contact' element={< Contact sendAlert={sendAlert} />}/>
+        <Route exact path='/' element={<MyText heading = {heading} sendAlert={sendAlert}/>}/>
+        <Route exact path='/about' element={< About />}/>
+        <Route exact path='/contact' element={< Contact sendAlert={sendAlert} />}/>
         </Routes>
       </Rounter> 
     </>
